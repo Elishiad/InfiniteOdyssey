@@ -468,67 +468,61 @@ Index: dist/game/data/stats/items/21400-21499.xml
  	</item>
  	<item id="21453" name="Coronet" additionalName="7-day" type="Armor">
  		<!-- Wedding hall bride's hair accessory (7-day). Females only. Uses 2 hair accessory slots. -->
-@@ -753,6 +852,10 @@
+@@ -753,6 +852,9 @@
  		<set name="material" val="WOOD" />
  		<set name="time" val="10080" />
  		<set name="weight" val="10" />
 +		<cond msgId="1518">
-+			<player sex="1" />
 +			<player sex="1" />
 +		</cond>
  	</item>
  	<item id="21454" name="Coronet" additionalName="7-day (Event)" type="Armor">
  		<!-- Wedding hall bride's hair accessory (7-day). Females only. Uses 2 hair accessory slots. -->
-@@ -768,6 +871,10 @@
+@@ -768,6 +870,9 @@
  		<set name="material" val="WOOD" />
  		<set name="time" val="10080" />
  		<set name="weight" val="10" />
 +		<cond msgId="1518">
 +			<player sex="1" />
-+			<player sex="1" />
 +		</cond>
  	</item>
  	<item id="21455" name="Coronet" additionalName="30-day" type="Armor">
  		<!-- Wedding hall bride's hair accessory (30-day). Females only. Uses 2 hair accessory slots. -->
-@@ -782,6 +889,10 @@
+@@ -782,6 +887,9 @@
  		<set name="material" val="WOOD" />
  		<set name="time" val="43200" />
  		<set name="weight" val="10" />
 +		<cond msgId="1518">
-+			<player sex="1" />
 +			<player sex="1" />
 +		</cond>
  	</item>
  	<item id="21456" name="Coronet" additionalName="30-day (Event)" type="Armor">
  		<!-- Wedding hall bride's hair accessory (30-day). Females only. Uses 2 hair accessory slots. -->
-@@ -797,6 +908,10 @@
+@@ -797,6 +905,9 @@
  		<set name="material" val="WOOD" />
  		<set name="time" val="43200" />
  		<set name="weight" val="10" />
 +		<cond msgId="1518">
 +			<player sex="1" />
-+			<player sex="1" />
 +		</cond>
  	</item>
  	<item id="21457" name="Coronet" type="Armor">
  		<!-- Bride's hair accessory. Females only. Uses 2 hair accessory slots. -->
-@@ -808,6 +923,10 @@
+@@ -808,6 +919,9 @@
  		<set name="is_sellable" val="false" />
  		<set name="material" val="WOOD" />
  		<set name="weight" val="10" />
 +		<cond msgId="1518">
 +			<player sex="1" />
-+			<player sex="1" />
 +		</cond>
  	</item>
  	<item id="21458" name="Coronet" additionalName="Event" type="Armor">
  		<!-- Wedding hall bride's hair accessory. Females only. Uses 2 hair accessory slots. -->
-@@ -822,11 +941,17 @@
+@@ -822,11 +936,16 @@
  		<set name="is_tradable" val="false" />
  		<set name="material" val="WOOD" />
  		<set name="weight" val="10" />
 +		<cond msgId="1518">
-+			<player sex="1" />
 +			<player sex="1" />
 +		</cond>
  	</item>
@@ -541,7 +535,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="is_auctionable" val="false" />
  		<set name="is_depositable" val="false" />
  		<set name="is_dropable" val="false" />
-@@ -834,12 +959,14 @@
+@@ -834,12 +953,14 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -557,7 +551,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="default_action" val="PEEL" />
  		<set name="handler" val="ExtractableItems" />
  		<set name="is_auctionable" val="false" />
-@@ -849,12 +976,16 @@
+@@ -849,12 +970,16 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -574,7 +568,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="is_auctionable" val="false" />
  		<set name="is_depositable" val="false" />
  		<set name="is_dropable" val="false" />
-@@ -862,12 +993,14 @@
+@@ -862,12 +987,14 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -590,7 +584,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="default_action" val="PEEL" />
  		<set name="handler" val="ExtractableItems" />
  		<set name="is_auctionable" val="false" />
-@@ -877,12 +1010,16 @@
+@@ -877,12 +1004,16 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -607,7 +601,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="is_auctionable" val="false" />
  		<set name="is_depositable" val="false" />
  		<set name="is_dropable" val="false" />
-@@ -890,7 +1027,9 @@
+@@ -890,7 +1021,9 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -617,7 +611,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  	</item>
  	<item id="21464" name="White Sheep Hat Pack" additionalName="Event" type="EtcItem">
  		<!-- Wrapped Pack containing white sheep hat. -->
-@@ -905,7 +1044,9 @@
+@@ -905,7 +1038,9 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -627,7 +621,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  	</item>
  	<item id="21465" name="White Sheep Hat" additionalName="7-day" type="Armor">
  		<!-- Hat that looks like a white sheep. 7-day. Uses 2 hair accessory slots. -->
-@@ -996,7 +1137,9 @@
+@@ -996,7 +1131,9 @@
  	<item id="21471" name="Frog Hat Pack (7-day)" type="EtcItem">
  		<!-- Wrapped Pack containing frog hat (7-day). -->
  		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
@@ -637,7 +631,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="is_auctionable" val="false" />
  		<set name="is_depositable" val="false" />
  		<set name="is_dropable" val="false" />
-@@ -1004,12 +1147,14 @@
+@@ -1004,12 +1141,14 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -653,7 +647,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="default_action" val="PEEL" />
  		<set name="handler" val="ExtractableItems" />
  		<set name="is_auctionable" val="false" />
-@@ -1019,12 +1164,16 @@
+@@ -1019,12 +1158,16 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -670,7 +664,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="is_auctionable" val="false" />
  		<set name="is_depositable" val="false" />
  		<set name="is_dropable" val="false" />
-@@ -1032,12 +1181,14 @@
+@@ -1032,12 +1175,14 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -686,7 +680,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="default_action" val="PEEL" />
  		<set name="handler" val="ExtractableItems" />
  		<set name="is_auctionable" val="false" />
-@@ -1047,12 +1198,16 @@
+@@ -1047,12 +1192,16 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -703,7 +697,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="is_auctionable" val="false" />
  		<set name="is_depositable" val="false" />
  		<set name="is_dropable" val="false" />
-@@ -1060,7 +1215,9 @@
+@@ -1060,7 +1209,9 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -713,7 +707,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  	</item>
  	<item id="21476" name="Frog Hat Pack" additionalName="Event" type="EtcItem">
  		<!-- Wrapped Pack containing frog hat. -->
-@@ -1075,7 +1232,9 @@
+@@ -1075,7 +1226,9 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -723,7 +717,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  	</item>
  	<item id="21477" name="Frog Hat" additionalName="7-day" type="Armor">
  		<!-- Hat that looks like a frog. 7-day. Uses 2 hair accessory slots. -->
-@@ -1166,7 +1325,9 @@
+@@ -1166,7 +1319,9 @@
  	<item id="21483" name="Kat the Cat Hat Pack (7-day)" type="EtcItem">
  		<!-- Wrapped Pack containing Kat the Cat hat (7-day). -->
  		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
@@ -733,7 +727,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="is_auctionable" val="false" />
  		<set name="is_depositable" val="false" />
  		<set name="is_dropable" val="false" />
-@@ -1174,12 +1335,14 @@
+@@ -1174,12 +1329,14 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -749,7 +743,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="default_action" val="PEEL" />
  		<set name="handler" val="ExtractableItems" />
  		<set name="is_auctionable" val="false" />
-@@ -1189,12 +1352,16 @@
+@@ -1189,12 +1346,16 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -766,7 +760,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="is_auctionable" val="false" />
  		<set name="is_depositable" val="false" />
  		<set name="is_dropable" val="false" />
-@@ -1202,12 +1369,14 @@
+@@ -1202,12 +1363,14 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -782,7 +776,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="default_action" val="PEEL" />
  		<set name="handler" val="ExtractableItems" />
  		<set name="is_auctionable" val="false" />
-@@ -1217,12 +1386,16 @@
+@@ -1217,12 +1380,16 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -799,7 +793,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="is_auctionable" val="false" />
  		<set name="is_depositable" val="false" />
  		<set name="is_dropable" val="false" />
-@@ -1230,7 +1403,9 @@
+@@ -1230,7 +1397,9 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -809,7 +803,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  	</item>
  	<item id="21488" name="Kat the Cat Hat Pack" additionalName="Event" type="EtcItem">
  		<!-- Wrapped Pack containing Kat the Cat hat. -->
-@@ -1245,7 +1420,9 @@
+@@ -1245,7 +1414,9 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -819,7 +813,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  	</item>
  	<item id="21489" name="Kat the Cat Hat" additionalName="7-day" type="Armor">
  		<!-- Hat that looks like Kat the Cat. 7-day. Uses 2 hair accessory slots. -->
-@@ -1336,7 +1513,9 @@
+@@ -1336,7 +1507,9 @@
  	<item id="21495" name="Kai the Cat Hat Pack (7-day)" type="EtcItem">
  		<!-- Wrapped Pack containing Kai the Cat hat (7-day). -->
  		<set name="icon" val="BranchSys.icon.br_four_leaf_clover_box_i00" />
@@ -829,7 +823,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="is_auctionable" val="false" />
  		<set name="is_depositable" val="false" />
  		<set name="is_dropable" val="false" />
-@@ -1344,12 +1523,14 @@
+@@ -1344,12 +1517,14 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -845,7 +839,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="default_action" val="PEEL" />
  		<set name="handler" val="ExtractableItems" />
  		<set name="is_auctionable" val="false" />
-@@ -1359,12 +1540,16 @@
+@@ -1359,12 +1534,16 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -862,7 +856,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="is_auctionable" val="false" />
  		<set name="is_depositable" val="false" />
  		<set name="is_dropable" val="false" />
-@@ -1372,12 +1557,14 @@
+@@ -1372,12 +1551,14 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -878,7 +872,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="default_action" val="PEEL" />
  		<set name="handler" val="ExtractableItems" />
  		<set name="is_auctionable" val="false" />
-@@ -1387,12 +1574,16 @@
+@@ -1387,12 +1568,16 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
@@ -895,7 +889,7 @@ Index: dist/game/data/stats/items/21400-21499.xml
  		<set name="is_auctionable" val="false" />
  		<set name="is_depositable" val="false" />
  		<set name="is_dropable" val="false" />
-@@ -1400,6 +1591,8 @@
+@@ -1400,6 +1585,8 @@
  		<set name="is_sellable" val="false" />
  		<set name="is_stackable" val="true" />
  		<set name="is_tradable" val="false" />
